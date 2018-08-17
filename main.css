@@ -1,7 +1,10 @@
+.body {
+    font-family: sans-serif;
+}
 .row {
     width: 100%;
-    font-family: sans-serif;
     font-size: 100px;
+    color: #333333;
 }
 .br-mob {
     display: none;
@@ -11,10 +14,13 @@
         display: block;
     }
 }
-
-#days{
-    background-color: aqua;
+#disp {
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 100px;
+    font-style: normal;
+    font-variant: bold;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: mediumvioletred;
 }
-
-
-

@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Aug 22, 2019 15:30:25").getTime();
+var countDownDate = new Date("Aug 22, 2018 15:30:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -23,12 +23,10 @@ var x = setInterval(function () {
     document.getElementById("secs").innerHTML = seconds + "s ";
 
     // If the count down is over, write some text 
-    if (days == 0) {
+    if (days == 0) {    
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "I am almost there";
+        document.getElementById("disp").innerHTML = "<h1>" + "I am almost there" + "</h1>";
     }
 }, 1000);
 
-function disp() {
-    document.getElementById("timer_disp").style.display = "block";
-}
+
