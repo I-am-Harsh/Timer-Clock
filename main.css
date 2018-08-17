@@ -1,0 +1,20 @@
+.row {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+.br-mob {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .br-mob {
+        display: block;
+    }
+}
+
+#days{
+    background-color: aqua;
+}
+
+
+
